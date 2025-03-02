@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .resume-section {
+            padding: 20px 0;
+        }
+        .resume-section h3 {
+            margin-bottom: 10px;
+        }
+        .custom-box {
+            width: 150px;
+            height: 100px;
+            background-color: lightblue;
+            border: 2px solid #007bff;
+            text-align: center;
+            line-height: 100px;
+            margin: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Website</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="fromscratch.html">Custom Page</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Welcome to My Professional Website</h1>
+            <p class="lead">A showcase of my skills, resume, and personal projects.</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-5">
+                <h2>About Me</h2>
+                <p>Hi! I'm Yutian Ye, an aspiring supply chain professional passionate about optimizing logistics and business operations.</p>
+            </div>
+            <div class="col-md-7 text-center">
+                <img src="IMG_5115.jpg" class="img-fluid rounded" alt="Profile Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Page -->
+    <section class="container my-5 resume-section" id="resume">
+        <h2 class="text-center">My Resume</h2>
+        <p class="text-center"><a href="https://www.linkedin.com/in/yutianye2004rachel/" target="_blank">LinkedIn Profile</a></p>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Education</h3>
+                <p><strong>Purdue University, Daniels School of Business</strong></p>
+                <p>Bachelor of Science, Supply Chain Operating & Management</p>
+                <p>GPA: 3.65/4.0 | Expected in May 2026</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Work Experience</h3>
+                <p><strong>Supply Chain Operations Management Assistant</strong> - ZNB Trucking INC (Dec 2024 – Jun 2025, Los Angeles, CA)</p>
+                <ul>
+                    <li>Optimized logistics for 500+ monthly orders with 95% on-time rates, cutting supply cycle time by 20%.</li>
+                    <li>Improved supplier compliance to 98%, boosting production efficiency and exceeding quarterly targets.</li>
+                    <li>Optimized inventory strategies, achieving 8x annual turnover and cutting costs by 10%.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Page (From Scratch) -->
+    <section class="container my-5" id="custom-page">
+        <h2 class="text-center">From Scratch Page</h2>
+        <p>This page is designed entirely from scratch to showcase my HTML and CSS skills.</p>
+        <div>
+            <h3>Embedded YouTube Video</h3>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/y_EjCSz1aBo" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div>
+            <h3>Interactive Tableau Graph</h3>
+            <div class='tableauPlaceholder' id='viz1740878877200' style='position: relative'>
+                <noscript>
+                    <a href='#'><img alt='INVENTORY MANAGEMENT DASHBOARD' src='https://public.tableau.com/static/images/In/InventoryManagementDashboard_16184993657110/INVENTORYMANAGEMENTDASHBOARD/1_rss.png' style='border: none' /></a>
+                </noscript>
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='InventoryManagementDashboard_16184993657110/INVENTORYMANAGEMENTDASHBOARD' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                </object>
+            </div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1740878877200');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Yutian Ye. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
