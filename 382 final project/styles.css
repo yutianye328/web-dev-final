@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Website</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="fromscratch.html">Custom Page</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Welcome to My Professional Website</h1>
+            <p class="lead">A showcase of my skills, resume, and personal projects.</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About Me</h2>
+                <p>Hi! I'm Yutian Ye, an aspiring web developer passionate about creating professional, high-quality websites.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="profile.jpg" class="img-fluid rounded" alt="Profile Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Page -->
+    <section class="container my-5" id="resume">
+        <h2 class="text-center">My Resume</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Education</h3>
+                <p><strong>Bachelor's Degree in Computer Science</strong> - Expected 2026</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Work Experience</h3>
+                <p><strong>Web Development Intern</strong> - XYZ Company (2024 - Present)</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Bootstrap Framework</li>
+                    <li>Responsive Web Design</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Awards & Honors</h3>
+                <p>Best Web Developer Award - 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Page (From Scratch) -->
+    <section class="container my-5" id="custom-page">
+        <h2 class="text-center">From Scratch Page</h2>
+        <p>This page is designed entirely from scratch to showcase my HTML and CSS skills.</p>
+        <div>
+            <h3 id="favorite-topics">My Favorite Topics</h3>
+            <ol>
+                <li>Web Development
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </li>
+                <li>Data Science</li>
+                <li>Cybersecurity</li>
+            </ol>
+        </div>
+        <div>
+            <h3>Embedded YouTube Video</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/example" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div>
+            <h3>Interactive Tableau Graph</h3>
+            <iframe width="600" height="400" src="https://public.tableau.com/views/example"></iframe>
+        </div>
+        <div>
+            <h3>Styled Divs</h3>
+            <div class="custom-box">Styled Box 1</div>
+            <div class="custom-box">Styled Box 2</div>
+            <div class="custom-box">Styled Box 3</div>
+        </div>
+        <div>
+            <p><a href="#favorite-topics">Go to Favorite Topics</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Yutian Ye. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
